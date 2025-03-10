@@ -1,0 +1,153 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    height: 472px;
+    background-color: #5AF338;
+    text-align: center;
+    position: relative;
+}
+.img_log{
+    position: relative;
+    left: 4px;
+    top: 0px;
+}
+
+h1 {
+    margin-top: 100px;
+    font-size: 64px;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    background-color: #f8f8f8;
+    padding: 10px;
+}
+
+.nav-item {
+    margin: 0 20px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-item a:hover {
+    color: #5AF338;
+}
+
+.many {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+}
+
+.product-card {
+    background-color: #5AF338;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.product-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.product-card h2 {
+    font-size: 24px;
+    margin: 10px 0;
+}
+
+.product-card h3 {
+    font-size: 20px;
+    color: #333;
+}
+
+/* Блоки додаткових ігор */
+.additional-games {
+    background-color: #f8f8f8;
+    padding: 40px 20px;
+}
+
+.game-blocks {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.game-item {
+    background-color: #5AF338;
+    padding: 20px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.game-item:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.15);
+}
+
+.game-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.game-item h3 {
+    font-size: 20px;
+    margin: 10px 0;
+}
+
+/* Оригінальний футер */
+.custom-footer {
+    background-color: #333;
+    color: #fff;
+    padding: 30px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer-content {
+    text-align: left;
+    margin-left: 20px;
+}
+
+.footer-content p {
+    margin: 5px 0;
+}
+
+.footer-social a {
+    color: #fff;
+    margin-right: 15px;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+.footer-social a:hover {
+    color: #5AF338;
+}
