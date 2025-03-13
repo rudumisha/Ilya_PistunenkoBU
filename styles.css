@@ -82,6 +82,23 @@ h1 {
     font-size: 20px;
     color: #333;
 }
+.buy-button {
+    background-color: #ff9800;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    display: block;
+    margin: 10px auto;
+}
+
+.buy-button:hover {
+    background-color: #e68900;
+}
+
 
 /* Блоки додаткових ігор */
 .additional-games {
