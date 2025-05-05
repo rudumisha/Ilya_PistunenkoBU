@@ -1,16 +1,20 @@
+/* Загальні стилі */
 body {
     font-family: sans-serif;
     margin: 0;
     padding: 0;
 }
 
+/* Хедер */
 header {
     height: 472px;
     background-color: #5AF338;
     text-align: center;
     position: relative;
+    color: #000;
 }
-.img_log{
+
+.img_log {
     position: relative;
     left: 4px;
     top: 0px;
@@ -21,9 +25,11 @@ h1 {
     font-size: 64px;
 }
 
+/* Навігація */
 .navigation {
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     margin-top: 20px;
     background-color: #f8f8f8;
     padding: 10px;
@@ -44,6 +50,7 @@ h1 {
     color: #5AF338;
 }
 
+/* Каталог */
 .many {
     display: flex;
     justify-content: space-around;
@@ -82,6 +89,8 @@ h1 {
     font-size: 20px;
     color: #333;
 }
+
+/* Кнопка */
 .buy-button {
     background-color: #ff9800;
     color: white;
@@ -99,8 +108,7 @@ h1 {
     background-color: #e68900;
 }
 
-
-/* Блоки додаткових ігор */
+/* Додаткові ігри */
 .additional-games {
     background-color: #f8f8f8;
     padding: 40px 20px;
@@ -139,7 +147,7 @@ h1 {
     margin: 10px 0;
 }
 
-/* Оригінальний футер */
+/* Футер */
 .custom-footer {
     background-color: #333;
     color: #fff;
@@ -147,6 +155,7 @@ h1 {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 .footer-content {
@@ -156,6 +165,10 @@ h1 {
 
 .footer-content p {
     margin: 5px 0;
+}
+
+.footer-social {
+    margin-right: 20px;
 }
 
 .footer-social a {
@@ -168,3 +181,37 @@ h1 {
 .footer-social a:hover {
     color: #5AF338;
 }
+
+/* 🌐 Адаптивність для телефонів */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 36px;
+        margin-top: 40px;
+    }
+
+    .product-card,
+    .game-item {
+        width: 100%;
+    }
+
+    .navigation {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-item {
+        margin: 10px 0;
+    }
+
+    .custom-footer {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .footer-content,
+    .footer-social {
+        margin: 10px 0;
+    }
+}
+
